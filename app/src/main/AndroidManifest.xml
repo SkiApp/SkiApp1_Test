@@ -3,6 +3,7 @@
     package="com.dhbw.studienarbeit.skiapp" >
 
     <!-- Random Comments -->
+    //Try to leave more
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
