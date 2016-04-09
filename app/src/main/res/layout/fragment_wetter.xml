@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="jule.weatherhq.app.VorhersageFragment">
+
+    <ListView
+        android:layout_width="match_parent" android:layout_height="402dp"
+        android:id="@+id/listView_vorhersage" android:layout_above="@+id/seekBar"
+        android:layout_alignParentTop="true" />
+    <Button
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/wetterbutton" android:id="@+id/bWetterAktualisieren"
+        android:layout_gravity="bottom|right" android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+    <EditText
+        android:layout_width="150dp" android:layout_height="wrap_content"
+        android:text="" android:id="@+id/etWetterStadt"
+        android:layout_gravity="bottom" android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp" />
+    <SeekBar
+        android:layout_width="200dp" android:layout_height="wrap_content"
+        android:max="6" android:id="@+id/seekBar"
+        android:progress="3" android:layout_gravity="center_horizontal|bottom"
+        android:layout_above="@+id/bWetterAktualisieren" android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:text="7"
+        android:id="@+id/tvAktTage" android:layout_alignTop="@+id/seekBar"
+        android:layout_toStartOf="@+id/seekBar" />
+    <TextView
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:text="10"
+        android:id="@+id/tvMaxTage" android:layout_alignTop="@+id/seekBar"
+        android:layout_toEndOf="@+id/seekBar" />
+    <ImageButton
+        android:layout_width="50dp" android:layout_height="50dp"
+        android:id="@+id/ibHoleStandort" android:layout_alignBottom="@+id/etWetterStadt"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ic_action_location_searching" />
+
+</RelativeLayout>

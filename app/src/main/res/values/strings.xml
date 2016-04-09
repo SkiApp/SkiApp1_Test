@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">SkiApp</string>
+    <string name="title_activity_main_maps">SkiApp</string>
+    <string name="title_activity_hilfe">Hilfe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hilfe">Hilfe</string>
+    <string name="beispiel2">Freunde</string>
+    <string name="beispiel3">Übersicht</string>
+
+    <string name="liftstationen">Lifte</string>
+    <string name="skischulen">Parkplätze</string>
+    <string name="hotels">Bushaltestellen</string>
+    <string name="hütten">Gaststätten</string>
+    <string name="skisportgeschäfte">Ski-Sport-Geschäfte</string>
+    <string name="title_activity_suche">Suche</string>
+    <string name="search_hint">Mellau</string>
+    <string name="search_label">SkiApp</string>
+    <string name="title_activity_start_screen">SkiApp</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_section1">Karte</string>
+    <string name="title_section2">Wetterdaten</string>
+    <string name="title_section3">Help</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_navigation_menu">SkiApp</string>
+    <string name="title_section4">Navigation</string>
+    <string name="title_section5">Übersicht</string>
+    <string name="title_section6">SOS</string>
+    <string name="title_activity_sosanruf">SOS</string>
+    <string name="hilfeText">Impressum \n
+Herausgeber und für den Inhalt\n
+verantwortlich:\n\n
+
+DHBW-Ravensburg Campus Friedrichhafen\n
+Studienarbeitsgruppe\n
+Fallenbrunnen 2\n
+88045 Friedrichhafen\n
+Deutschland , EU\n\n
+
+App Entwicklung, Konzept und\n
+Programmierung:\n
+DHBW-Ravensburg Campus Friedrichhafen\n
+Studienarbeitsgruppe\n
+Fallenbrunnen 2\n
+88045 Friedrichhafen\n
+Deutschland , EU\n
+</string>
+    <string name="hilfeÜberschrift">Hilfe</string>
+    <string name="zurück">Back to Maps</string>
+    <string name="SOSÜberschrift">Click to Call SOS</string>
+    <string name="sos">SOS</string>
+
+
+    <string name="action_aktualisieren">Aktualisieren</string>
+
+
+    <string name="action_location">Schtandort</string>
+    <string name="title_activity_einstellungen">Einstellungen</string>
+    <string name="title_activity_wetterdetail">WetterdetailActivity</string>
+    <string name="preference_standort_title">Standort</string>
+    <string name="preference_standort_key">standort</string>
+    <string name="preference_standort_default">Rom</string>
+    <string name="preference_kurzvorhersage_title">5 Tage-Vorhersage</string>
+    <string name="preference_kurzvorhersage_key">kurzvorhersage</string>
+    <string name="preference_kurzvorhersage_summary">Vorhersage auf 5 Tage begrenzen</string>
+    <string name="title_activity_current_position">CurrentPosition</string>
+    <string name="title_activity_vorhersage_wetter">Wettervorhersage</string>
+    <string name="title_activity_wetter_detail">WetterDetailActivity</string>
+    <string name="wetterbutton">Aktualisieren</string>
+    <string name="title_activity_uebersicht">Übersicht</string>
+    <string name="title_activity_expandable_list_adapter">ExpandableListAdapter</string>
+    <string name="title_activity_datenbank">DatenbankActivity</string>
+    <string name="title_activity_test">Test</string>
+    <string name="StartText">Welches Skigebiet ist Ihr heutiges Reiseziel</string>
+    <string name="title_activity_ski_gebiet_navigation">SkiGebietNavigation</string>
+    <string name="übersicht">Übersicht</string>
+    <string name="wetter">Wetter</string>
+    <string name="navi">Navi</string>
+    <string name="StartLifte">Start Lift</string>
+
+</resources>

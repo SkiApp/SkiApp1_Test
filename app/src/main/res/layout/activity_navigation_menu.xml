@@ -1,0 +1,63 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/drawer_layout"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.dhbw.studienarbeit.skiapp.NavigationMenu">
+
+    <RelativeLayout android:id="@+id/container" android:layout_width="match_parent"
+        android:layout_height="match_parent" tools:layout="@layout/activity_main_maps" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/StartText"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="63dp"
+            android:layout_margin="50dp"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mellau"
+            android:id="@+id/bMellau"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:onClick="toMellau" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sölden"
+            android:id="@+id/bSölden"
+            android:layout_below="@+id/bMellau"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="51dp"
+            android:onClick="toSoelden" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ischgl"
+            android:id="@+id/bIschgl"
+            android:layout_below="@+id/bSölden"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="61dp"
+            android:onClick="toIschgl" />
+
+
+    </RelativeLayout>
+
+
+        //NavDrawer Fragment
+
+    <fragment android:id="@+id/navigation_drawer"
+        android:layout_width="@dimen/navigation_drawer_width" android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:name="com.dhbw.studienarbeit.skiapp.NavigationDrawerFragment"
+        tools:layout="@layout/fragment_navigation_drawer"
+        />
+
+</android.support.v4.widget.DrawerLayout>

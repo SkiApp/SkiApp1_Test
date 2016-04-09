@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="lifteArray">
+        <item>Uga;47.286641,9.887911:</item>
+        <item>Hohes Licht;47.303182,9.886834:</item>
+        <item>Sunnegg;47.292366,9.878234:</item>
+        <item>Hasenbühel;47.292832,9.877933:</item>
+        <item>Oberdamüls;47.280809,9.888169:</item>
+        <item>Walisgaden;47.292759,9.879199:</item>
+        <item>Furka;47.280518,9.872054:</item>
+        <item>Elsenkopf;47.304110,9.898439:</item>
+        <item>Hohe Wacht;47.304183,9.898123:</item>
+        <item>Gratlift Sunnegg;47.290136,9.867557:</item>
+        <item>Übungslift Sunnegg;47.291751,9.879530:</item>
+        <item>Ragaz;47.305264,9.873883:</item>
+        <item>Rossstelle;47.328230,9.885499:</item>
+        <item>Gipfelbahn;47.327266,9.883511:</item>
+        <item>Wildgunten;47.325298,9.880955:</item>
+        <item>Suttis;47.330971,9.858799:</item>
+        <item>Mellaubahn;47.345986,9.888533:</item>
+        <item>Kitzebühl;47.343858,9.890538:</item>
+        <item>Hasenlift;47.347512,9.889201:</item>
+    </string-array>
+
+    <string-array name="parkplätzeArray">
+        <item>Parkplatz Mellau;47.345464,9.888265:</item>
+        <item>Parkplatz Damüls;47.286235,9.887516:</item>
+        <item>Parkplatz Damüls;47.280001,9.891528:</item>
+        <item>Parkplatz Sölden;47.280001,9.891528:</item>
+        <item>Parkplatz Sölden;47.280001,9.891528:</item>
+        <item>Parkplatz Sölden;47.280001,9.891528:</item>
+    </string-array>
+
+    <string-array name="sportGeschäfteArray">
+        <item>Sport 2000;47.35128,9.88298:Platz 67a  6881 Mellau</item>
+        <item>Sport 2000 Natter Talstation Mellau;47.34612,9.88845:Hinterbündt 380  6881 Mellau</item>
+        <item>Sport Broger;47.34963,9.88315:Tempel 305  6881 Mellau</item>
+        <item>Mani Sport;47.28040,9.89159:Damüls 136  6884 Damüls</item>
+        <item>Sport Madlener;47.28572,9.88817:Damüls 66   6884 Damüls</item>
+    </string-array>
+
+    <string-array name="restaurantsArray">
+        <item>Bergrestaurant Simma;47.328695,9.885809:Rossstelle 242 6881 Mellau</item>
+        <item>Aplhof Rossstelle;47.328468,9.884967:Rossstelle 382  6881 Mellau</item>
+        <item>Berggasthof Elsenalpstube;47.299524,9.891936:Damüls 103  6884 Damüls</item>
+        <item>Jausenstation Sunnegg;47.292941,9.886863:"Damüls 98  6884 Damüls"</item>
+        <item>Hotel Gasthof Walisgaden;47.294653,9.885851:"Damüls 100  6884 Damüls"</item>
+        <item>Gasthof Sonnenheim;47.280690,9.869226:"Damüls 197  6884 Damüls"</item>
+    </string-array>
+
+    <string-array name="bushaltenArray">
+        <item>Hinterbündt Mellau Bushaltestelle;47.346240,9.889011:</item>
+        <item>Übermellen Mellau Bushaltestelle;47.351423, 9.881637:</item>
+        <item>Faschina Straße 21 Damüls Bushaltestelle;47.283693,9.892982:</item>
+        <item>L51 Damüls Bushaltestelle;47.285550, 9.888283:</item>
+        <item>L51 Damüls Bushaltestelle;47.280171, 9.891619:</item>
+        <item>Faschina Straße Bushaltestelle;47.272077,9.907361:</item>
+        <item>Dorf Straße 109 Sölden;46.959848,11.008629:</item>
+        <item>Dorf Straße 100 Sölden;46.966538,11.007207:</item>
+    </string-array>
+
+</resources>

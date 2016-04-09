@@ -1,0 +1,83 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     >
+
+    //Filter
+    <item
+        android:id="@+id/actionbar_filter"
+        android:icon="@mipmap/ic_action_edit"
+        android:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/Liftstationen"
+                android:showAsAction="never"
+                android:title="@string/liftstationen"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/Parkplätze"
+                android:showAsAction="never"
+                android:title="@string/skischulen"
+                android:checkable="true"
+                android:checked="true"
+                />
+            <item
+                android:id="@+id/Bushaltestellen"
+                android:showAsAction="never"
+                android:title="@string/hotels"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/Gaststätten"
+                android:showAsAction="never"
+                android:title="@string/hütten"
+                android:checkable="true"
+                android:checked="true"
+                />
+            <item
+                android:id="@+id/SkiSportGeschäfte"
+                android:showAsAction="never"
+                android:title="@string/skisportgeschäfte"
+                android:checkable="true"
+                android:checked="true"
+                />
+
+        </menu>
+
+    </item>
+
+    //Suchen
+    <item
+        android:id="@+id/actionbar_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@mipmap/ic_action_search"
+        android:showAsAction="collapseActionView|ifRoom"/>
+
+    //Overflow
+    <item
+        android:id="@+id/actionbar_overflow"
+        android:icon="@mipmap/ic_action_overflow"
+        android:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/hilfe"
+                android:showAsAction="never"
+                android:title="@string/hilfe" />
+            <item
+                android:id="@+id/übersicht"
+                android:showAsAction="never"
+                android:title="@string/übersicht" />
+            <item
+                android:id="@+id/wetter"
+                android:showAsAction="never"
+                android:title="@string/wetter" />
+            <item
+                android:id="@+id/sos"
+                android:showAsAction="never"
+                android:title="@string/sos" />
+            <item
+                android:id="@+id/navi"
+                android:showAsAction="never"
+                android:title="@string/navi" />
+        </menu>
+    </item>
+
+</menu>
